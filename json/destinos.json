@@ -1,0 +1,49 @@
+[{
+        "imagen": "images/bariloche.jpg",
+        "nombre": "San Carlos de Bariloche",
+        "precio": 15000,
+        "value": "1"
+    },
+    {
+        "imagen": "images/Punta_Cana.jpg",
+        "nombre": "Punta Cana",
+        "precio": 18000,
+        "value": "2"
+    },
+    {
+        "imagen": "images/orlando.jpeg",
+        "nombre": "Orlando",
+        "precio": 12000,
+        "value": "3"
+    },
+    {
+        "imagen": "images/barcelona.jpg",
+        "nombre": "Barcelona",
+        "precio": 15000,
+        "value": "4"
+    },
+    {
+        "imagen": "images/playa-del-carmen-beach.jpg",
+        "nombre": "Playa del Carmen",
+        "precio": 15000,
+        "value": "5"
+    },
+    {
+        "imagen": "images/cancun.jpg",
+        "nombre": "Cancún",
+        "precio": 5000,
+        "value": "6"
+    },
+    {
+        "imagen": "images/miami.jpg",
+        "nombre": "Miami",
+        "precio": 16000,
+        "value": "7"
+    },
+    {
+        "imagen": "images/madrid.jpg",
+        "nombre": "Madrid",
+        "precio": 12000,
+        "value": "8"
+    }
+]
