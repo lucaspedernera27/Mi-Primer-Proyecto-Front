@@ -15,14 +15,14 @@ pipeline {
         } 
         stage('Git Clone') {
             steps {
-                sh 'rm -rf static-website/'
-                sh 'git clone https://github.com/roxsross/static-website.git'
-                sh 'ls -lrt static-website/'
+                sh 'rm -rf Mi-Primer-Proyecto-Front/'
+                sh 'git clone https://github.com/lucaspedernera27/Mi-Primer-Proyecto-Front.git'
+                sh 'ls -lrt Mi-Primer-Proyecto-Front/'
             }
         } 
         stage('Upload to S3') {
             steps {
-                sh 'aws s3 cp static-website s3://leandroooo --recursive'
+                sh 'aws s3 cp static-website s3://proyectobucket2 --recursive'
             }
         }         
     }
