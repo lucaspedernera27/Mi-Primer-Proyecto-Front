@@ -22,7 +22,7 @@ pipeline {
         } 
         stage('Upload to S3') {
             steps {
-                sh 'aws s3 cp Mi-Primer-Proyecto-Front s3://proyectobucket2 --recursive'
+                sh 'aws s3 cp Mi-Primer-Proyecto-Front s3://bucketjenkins3 --recursive'
             }
         }         
     }
